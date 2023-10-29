@@ -5,4 +5,4 @@ function setTime() {
     target.innerHTML = `${d.getHours()} : ${d.getMinutes()} : ${d.getSeconds()}`
 }
 
-setTime();
+setInterval(setTime,1000)
